@@ -1,0 +1,15 @@
+{
+  "name": "pharma-intel-mcp",
+  "version": "1.0.0",
+  "description": "신약·임상·규제·경쟁사 MCP 서버 — ClinicalTrials.gov·openFDA·EMA·식약처 임상시험계획을 조회하고 회사별 파이프라인·규제 이력을 집계한다",
+  "type": "module",
+  "scripts": {
+    "test": "node smoke.mjs"
+  },
+  "keywords": ["mcp", "clinicaltrials", "openfda", "ema", "mfds", "pharma"],
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^4.4.3"
+  }
+}
